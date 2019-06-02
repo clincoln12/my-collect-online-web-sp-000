@@ -4,7 +4,9 @@ def my_collect(collection)
   i = 0
   
   while collection.length > i do
-    new_collection << yield(collection[i])
+    manipulated_object = yield(collection[i])
+    
+    new_collection << manipulated_object
     
     i += 1
   end
