@@ -6,6 +6,5 @@ def my_collect(collection)
     i = i + 1
   end
   collection.map(&:upcase)
-  
 end
 
