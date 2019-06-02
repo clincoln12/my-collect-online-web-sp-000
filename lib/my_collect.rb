@@ -8,9 +8,3 @@ def my_collect(collection)
   
   collection
 end
-
-['a', 'b'].my_collect do |x|
-  x.capitalize
-end
-
->> should return ['A', 'B']
