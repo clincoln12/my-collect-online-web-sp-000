@@ -5,6 +5,8 @@ def my_collect(collection)
     yield
     i += 1
   end
+  
+  collection
 end
 
 ['a', 'b'].my_collect do |x|
